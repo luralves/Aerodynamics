@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Apostila Aerodinâmica</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                tags: 'ams'
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Drawer lateral -->
+        <aside id="sidebar" class="sidebar">
+            <button id="toggle-btn">☰</button>
+            <h2>Sumário</h2>
+            <ul>
+                <li><a href="#" onclick="loadChapter('chapters/chapter-01.html')">Introdução</a></li>
+                <li><a href="#" onclick="loadChapter('chapters/chapter-02.html')">Fundamentos</a></li>
+            </ul>
+        </aside>
+
+        <!-- Conteúdo principal -->
+        <main id="content" class="content">
+            <h1>Bem-vindo</h1>
+            <p>Selecione um capítulo no menu.</p>
+        </main>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

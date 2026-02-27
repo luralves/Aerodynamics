@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber main"] 1772213558.68282 "main.bcf" "main.bbl" "main" 1772213562.35965 0
-  "main.bcf" 1772213562.30106 107966 72aa10518ba67f9f7c41df51fc2e53c5 "pdflatex"
+["biber main"] 1772214056.32099 "main.bcf" "main.bbl" "main" 1772214308.68548 0
+  "main.bcf" 1772214308.61166 107966 72aa10518ba67f9f7c41df51fc2e53c5 "pdflatex"
   "references.bib" 1772212757.94499 297 f02d58b79a682db6d1be418bf04671a9 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1772213561.45369 "/home/user/Documentos/GitHub/Aerodynamics/book/portuguese/main.tex" "main.pdf" "main" 1772213562.35993 0
+["pdflatex"] 1772214307.64268 "/home/user/Documentos/GitHub/Aerodynamics/book/portuguese/main.tex" "main.pdf" "main" 1772214308.68583 0
   "/etc/texmf/web2c/texmf.cnf" 1768932312.7531 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/user/Documentos/GitHub/Aerodynamics/book/portuguese/main.tex" 1772213557.34899 1003 d744a111ff6290e8c6997eeadb7adcb5 ""
+  "/home/user/Documentos/GitHub/Aerodynamics/book/portuguese/main.tex" 1772214307.30766 625 90b32f63175f1af578c04ed0b55f43fc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -75,11 +75,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1768932334.5075 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1768932423 8215293 55563cc0842913d77be7b2c0c4e76ff1 ""
-  "main.aux" 1772213562.29806 1300 3c3f2e1091af0108ad86e24a590e6a6a "pdflatex"
-  "main.bbl" 1772213559.60894 2395 2ca162a147c8e24b9ae64aeac652df39 "biber main"
-  "main.run.xml" 1772213562.30303 2337 1527614368999f64ac64146cea8bb7de "pdflatex"
-  "main.tex" 1772213557.34899 1003 d744a111ff6290e8c6997eeadb7adcb5 ""
-  "main.toc" 1772213562.30303 276 906b719621b9a37e146e52f9f751e0f6 "pdflatex"
+  "chapters/chapter-01.tex" 1772214016.42229 202 0ec1bf183b077aaba313c76473474e87 ""
+  "chapters/chapter-02.tex" 1772214045.12991 205 f02275821bd6296f61fcb98c0f8c0b87 ""
+  "main.aux" 1772214308.60766 1300 3c3f2e1091af0108ad86e24a590e6a6a "pdflatex"
+  "main.bbl" 1772214057.18269 2395 2ca162a147c8e24b9ae64aeac652df39 "biber main"
+  "main.run.xml" 1772214308.61499 2337 1527614368999f64ac64146cea8bb7de "pdflatex"
+  "main.tex" 1772214307.30766 625 90b32f63175f1af578c04ed0b55f43fc ""
+  "main.toc" 1772214308.61499 276 906b719621b9a37e146e52f9f751e0f6 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
