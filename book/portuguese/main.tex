@@ -1,0 +1,59 @@
+\documentclass[12pt,oneside]{book}
+
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{titlesec}
+\usepackage[backend=biber, style=numeric, sorting=nyt]{biblatex}
+\addbibresource{references.bib}
+
+\usepackage{lipsum}
+
+\titleformat{\chapter}
+  {\normalfont\Huge\bfseries}
+  {\thechapter}
+  {1em}
+  {}
+
+\begin{document}
+
+	\frontmatter
+	\title{Aerodinâmica}
+	\author{}
+	\date{}
+	\maketitle
+	\tableofcontents
+
+	\mainmatter
+
+	\chapter{Introdução}
+
+	\lipsum[1] \cite{goldstein2002, newton1687}. Referência da Equação \ref{eq:equation-01}.
+
+	\begin{equation}
+		y = x + 1
+		\label{eq:equation-01}
+	\end{equation}
+
+	\section{Primeira Seção}
+	
+	\lipsum[1-5]
+
+	\chapter{Fundamentos}
+
+	\lipsum[1] \cite{goldstein2002, newton1687}. Referência da Equação \ref{eq:equation-02}.
+	
+	\begin{equation}
+		y = x^2 + 5
+		\label{eq:equation-02}
+	\end{equation}
+
+	\section{Primeira Seção}
+	
+	\lipsum[1-5]
+
+	\printbibliography
+
+	\backmatter
+
+\end{document}

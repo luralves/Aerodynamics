@@ -1,0 +1,5 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {chapter}{\numberline {1}Introdução}{1}{}%
+\contentsline {section}{\numberline {1.1}Primeira Seção}{1}{}%
+\contentsline {chapter}{\numberline {2}Fundamentos}{3}{}%
+\contentsline {section}{\numberline {2.1}Primeira Seção}{3}{}%
