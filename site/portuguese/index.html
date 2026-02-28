@@ -2,41 +2,65 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Apostila Aerodinâmica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecânica Clássica</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- MathJax -->
     <script>
-        window.MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']],
-                displayMath: [['$$', '$$'], ['\\[', '\\]']],
-                tags: 'ams'
-            }
-        };
+    window.MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],
+            tags: 'ams'
+        }
+    };
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
+
 <body>
 
-    <div class="container">
+<!-- ==============================
+     BOTÃO FLUTUANTE
+================================ -->
+<button id="openDrawerBtn" class="floating-btn">☰</button>
 
-        <!-- Drawer lateral -->
-        <aside id="sidebar" class="sidebar">
-            <button id="toggle-btn">☰</button>
-            <h2>Sumário</h2>
-            <ul>
-                <li><a href="#" onclick="loadChapter('chapters/chapter-01.html')">Introdução</a></li>
-                <li><a href="#" onclick="loadChapter('chapters/chapter-02.html')">Fundamentos</a></li>
-            </ul>
-        </aside>
-
-        <!-- Conteúdo principal -->
-        <main id="content" class="content">
-            <h1>Bem-vindo</h1>
-            <p>Selecione um capítulo no menu.</p>
-        </main>
-
+<!-- ==============================
+     DRAWER
+================================ -->
+<div id="drawer" class="drawer">
+    <div class="drawer-header">
+        <span>Sumário</span>
+        <button id="closeDrawerBtn" class="close-btn">✕</button>
     </div>
 
-    <script src="js/main.js"></script>
+    <ul class="drawer-menu">
+        <!-- Capítulos serão inseridos automaticamente via JS -->
+    </ul>
+</div>
+
+<!-- ==============================
+     OVERLAY
+================================ -->
+<div id="overlay" class="overlay"></div>
+
+<!-- ==============================
+     CONTEÚDO DINÂMICO
+================================ -->
+<div class="page">
+    <!-- Capítulos serão carregados aqui -->
+</div>
+
+<!-- ==============================
+     SCRIPT PRINCIPAL
+================================ -->
+<script src="js/script.js" defer></script>
+
 </body>
 </html>
